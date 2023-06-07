@@ -95,7 +95,10 @@ After you're finished please remove all the comments and instructions!
 - **App is able to display random predefined Greetings**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Future Features <a name="future-features"></a>
 
+> Ability to test your app  using Rspec and jest 
+> Add more fancy styling  
 
 <!-- GETTING STARTED -->
 
@@ -114,7 +117,7 @@ coming soon
 coming soon
 
 ### Setup
-You can download the page by clicking in the code green button and select Download ZIP or if you are a developer. You can get the https link or ssh link just copy it and use your favourite command line git interface and write this `git clone https://github.com/mohamed20163858/blog_project.git` if you use https or write `git clone git@github.com:mohamed20163858/blog_project.git` if you use ssh
+You can download the page by clicking in the code green button and select Download ZIP or if you are a developer. You can get the https link or ssh link just copy it and use your favourite command line git interface and write this `https://github.com/mohamed20163858/hello-rails-react.git` if you use https or write `git@github.com:mohamed20163858/hello-rails-react.git` if you use ssh
 
 ### Usage
 
