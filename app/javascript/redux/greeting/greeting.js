@@ -19,15 +19,6 @@ export const fetchGreetingMessage = () => {
     };
   };
 
-  
-// export const fetchGreetingMessage = createAsyncThunk(
-//   GET,
-//   async () => {
-//     const response = await fetch('api/v1/message/random_greeting');
-//     const data = await response.json();
-//     return data.greeting;
-//   },
-// );
 const greetingReducer = (state = initialState, action) => {
     switch (action.type) {
       case 'SET_GREETING':
