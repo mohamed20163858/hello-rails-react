@@ -1,0 +1,42 @@
+import { createAsyncThunk } from '@reduxjs/toolkit';
+
+const initialState = {
+    greeting: ''
+  };
+const GET = 'hello-rails-react/app//javascript/redux/greeting/GET';
+
+export const setGreeting = (greeting) => ({
+  type: 'SET_GREETING',
+  payload: greeting,
+
+});
+
+export const fetchGreetingMessage = () => {
+    return dispatch => {
+      fetch('api/v1/message/random_greeting')
+        .then(response => response.json())
+        .then(data => dispatch(setGreeting(data.greeting)));
+    };
+  };
+
+  
+// export const fetchGreetingMessage = createAsyncThunk(
+//   GET,
+//   async () => {
+//     const response = await fetch('api/v1/message/random_greeting');
+//     const data = await response.json();
+//     return data.greeting;
+//   },
+// );
+const greetingReducer = (state = initialState, action) => {
+    switch (action.type) {
+      case 'SET_GREETING':
+        return {
+          ...state,
+          greeting: action.payload
+        };
+      default:
+        return state;
+    }
+  };
+export default greetingReducer;
