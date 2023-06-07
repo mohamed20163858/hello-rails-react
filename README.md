@@ -24,7 +24,6 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
 </div>
@@ -95,6 +94,7 @@ After you're finished please remove all the comments and instructions!
 - **App is able to display random predefined Greetings**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Future Features <a name="future-features"></a>
 
 > Ability to test your app  using Rspec and jest 
